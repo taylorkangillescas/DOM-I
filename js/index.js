@@ -41,7 +41,7 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-// creating selectors to put data into elements
+// creating selectors to put data into elements.
 
 //nav
 let navOne = document.querySelector('a:nth-of-type(1)');
@@ -90,7 +90,7 @@ aboutOne.textContent = siteContent["main-content"]["about-h4"];
 let aboutTwo = document.querySelector(".top-content div:nth-child(2) > p");
 aboutTwo.textContent = siteContent["main-content"]["about-content"];
 
-//middle image
+//middle img
 let middleImage = document.getElementById("middle-img");
 middleImage.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 
